@@ -1,0 +1,77 @@
+.arrow-container {
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.arrow.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.arrow.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow.hidden {
+  opacity: 0.3;
+}
+
+
+
+
+.diagramm-gant {
+  margin-top: 40px;
+}
+
+.links button {
+  background-color: #2196F3;
+}
+
+.links {
+  margin-top: 120px;
+  font-size: 30px;
+  margin-left: 50px;
+  display: flex;
+}
+
+smart-gantt-chart {
+  height: auto;
+}
+
+  smart-gantt-chart .product-team {
+      --smart-gantt-chart-task-color: rgb(94, 99, 181);
+      --smart-gantt-chart-task-label-color: white;
+      --smart-gantt-chart-task-label-color-selected: white;
+  }
+
+smart-gantt-chart .marketing-team {
+  --smart-gantt-chart-task-color: rgb(43, 195, 190);
+}
+
+  smart-gantt-chart .dev-team {
+      --smart-gantt-chart-task-color: rgb(242, 115, 112);
+      --smart-gantt-chart-task-label-color: white;
+      --smart-gantt-chart-task-label-color-selected: white;
+  }
+
+smart-gantt-chart .design-team {
+  --smart-gantt-chart-task-color: rgb(255, 197, 53);
+}
+
+smart-gantt-chart .qa-team {
+  --smart-gantt-chart-task-color: rgb(99, 181, 144);
+}
+
+  smart-gantt-chart .release-team {
+      --smart-gantt-chart-task-color: rgb(188, 150, 223);
+      --smart-gantt-chart-task-label-color: white;
+  }
